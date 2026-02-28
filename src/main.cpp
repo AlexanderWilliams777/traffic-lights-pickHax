@@ -8,9 +8,10 @@
 #include <vector>
 #include <iostream>
 #include <cstring>
-// Provide stb_image implementation in this translation unit
-#define STB_IMAGE_IMPLEMENTATION
-#include "stb_image.h"
+#include "render/Shader.h"
+#include "render/Renderer.h"
+#include "render/Camera.h"
+#include "render/Mesh.h"
 
 // Using Dear ImGui instead of MyGUI
 
@@ -19,25 +20,6 @@ const unsigned int WIDTH = 800;
 const unsigned int HEIGHT = 600;
 
 // (stb_image available if you want to load textures for OpenGL)
-
-// -------------------------
-// Shader sources
-// -------------------------
-const char* vertexShaderSrc = R"(
-#version 330 core
-layout(location = 0) in vec2 aPos;
-uniform mat4 uProjection;
-void main() {
-    gl_Position = uProjection * vec4(aPos, 0.0, 1.0);
-})";
-
-const char* fragmentShaderSrc = R"(
-#version 330 core
-uniform vec3 uColor;
-out vec4 FragColor;
-void main() {
-    FragColor = vec4(uColor, 1.0);
-})";
 
 // -------------------------
 // Car struct
@@ -49,87 +31,26 @@ struct Car {
     int dir; // 0=up,1=down,2=left,3=right
 };
 
-// -------------------------
-// Compile shader
-// -------------------------
-GLuint compileShader(GLenum type, const char* src) {
-    GLuint shader = glCreateShader(type);
-    glShaderSource(shader, 1, &src, nullptr);
-    glCompileShader(shader);
-    int success;
-    glGetShaderiv(shader, GL_COMPILE_STATUS, &success);
-    if (!success) {
-        char info[512];
-        glGetShaderInfoLog(shader, 512, nullptr, info);
-        std::cout << "Shader compile error: " << info << std::endl;
+// Using Shader class in src/render/Shader.h
+
+// Quad helper
+#include "render/Quad.h"
+#include <memory>
+#include <limits>
+#include "logging.h"
+#include <csignal>
+
+// Simple GL error checker
+static void checkGLError(const char* when) {
+    GLenum err;
+    bool any = false;
+    while ((err = glGetError()) != GL_NO_ERROR) {
+        std::cerr << "GL Error (" << when << "): 0x" << std::hex << err << std::dec << std::endl;
+        any = true;
     }
-    return shader;
-}
-
-// -------------------------
-// Shader program
-// -------------------------
-GLuint createShaderProgram() {
-    GLuint vertex = compileShader(GL_VERTEX_SHADER, vertexShaderSrc);
-    GLuint fragment = compileShader(GL_FRAGMENT_SHADER, fragmentShaderSrc);
-    GLuint program = glCreateProgram();
-    glAttachShader(program, vertex);
-    glAttachShader(program, fragment);
-    glLinkProgram(program);
-    int success;
-    glGetProgramiv(program, GL_LINK_STATUS, &success);
-    if (!success) {
-        char info[512];
-        glGetProgramInfoLog(program, 512, nullptr, info);
-        std::cout << "Program link error: " << info << std::endl;
+    if (!any) {
+        // optional: log that no error occurred
     }
-    glDeleteShader(vertex);
-    glDeleteShader(fragment);
-    return program;
-}
-
-// -------------------------
-// Rectangle VAO/VBO
-// -------------------------
-struct Rect {
-    GLuint VAO, VBO;
-};
-
-Rect createRect(float x, float y, float w, float h) {
-    Rect r;
-    float verts[] = {
-        x, y, x + w, y, x + w, y + h,
-        x, y, x + w, y + h, x, y + h
-    };
-    glGenVertexArrays(1, &r.VAO);
-    glGenBuffers(1, &r.VBO);
-    glBindVertexArray(r.VAO);
-    glBindBuffer(GL_ARRAY_BUFFER, r.VBO);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(verts), verts, GL_DYNAMIC_DRAW);
-    glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 2 * sizeof(float), (void*)0);
-    glEnableVertexAttribArray(0);
-    glBindBuffer(GL_ARRAY_BUFFER, 0);
-    glBindVertexArray(0);
-    return r;
-}
-
-void updateRect(Rect& r, float x, float y, float w, float h) {
-    float verts[] = {
-        x, y, x + w, y, x + w, y + h,
-        x, y, x + w, y + h, x, y + h
-    };
-    glBindBuffer(GL_ARRAY_BUFFER, r.VBO);
-    glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(verts), verts);
-    glBindBuffer(GL_ARRAY_BUFFER, 0);
-}
-
-void drawRect(const Rect& r, GLuint program, float rC, float gC, float bC) {
-    glUseProgram(program);
-    GLuint loc = glGetUniformLocation(program, "uColor");
-    glUniform3f(loc, rC, gC, bC);
-    glBindVertexArray(r.VAO);
-    glDrawArrays(GL_TRIANGLES, 0, 6);
-    glBindVertexArray(0);
 }
 
 // -------------------------
@@ -152,22 +73,89 @@ void updateCars(std::vector<Car>& cars, float dt) {
 
 int main() {
     // ------------------------- Window + GLAD -------------------------
-    glfwInit();
+    // initialize logging first (log file in runtime bin/logs/app.log)
+    init_logging("logs/app.log");
+    std::cout << "Application start" << std::endl;
+
+    // Install simple crash/signal handlers so we capture crashes in the log
+    // Use C signal APIs (global namespace)
+    auto crashHandler = [](int sig)->void {
+        std::cerr << "Fatal signal: " << sig << " - terminating" << std::endl;
+        shutdown_logging();
+        // restore default handler and re-raise to let OS handle it as well
+        ::signal(sig, SIG_DFL);
+        ::raise(sig);
+    };
+    ::signal(SIGSEGV, crashHandler);
+    ::signal(SIGABRT, crashHandler);
+    ::signal(SIGFPE, crashHandler);
+    ::signal(SIGILL, crashHandler);
+    std::set_terminate([](){
+        std::cerr << "terminate() called - uncaught exception" << std::endl;
+        shutdown_logging();
+        std::abort();
+    });
+
+    // GLFW error callback
+    glfwSetErrorCallback([](int error, const char* description){
+        std::cerr << "GLFW Error (" << error << "): " << description << std::endl;
+    });
+
+    if (!glfwInit()) {
+        std::cerr << "glfwInit() failed" << std::endl;
+        std::cerr << "Press Enter to exit..." << std::endl;
+        std::cin.get();
+        return -1;
+    }
+
+    std::cout << "glfwInit() succeeded" << std::endl;
+
+    // window hints
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+
     GLFWwindow* window = glfwCreateWindow(WIDTH, HEIGHT, "Smart City", nullptr, nullptr);
-    if (!window) { std::cout << "Failed to create window\n"; return -1; }
+    if (!window) { std::cerr << "Failed to create window\n"; std::cerr << "Press Enter to exit...\n"; std::cin.get(); return -1; }
     glfwMakeContextCurrent(window);
-    if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) { std::cout << "Failed to initialize GLAD\n"; return -1; }
+    if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
+        std::cerr << "Failed to initialize GLAD\n";
+        std::cerr << "Press Enter to exit...\n";
+        std::cin.get();
+        return -1;
+    }
+    std::cout << "GLAD initialized. OpenGL " << (const char*)glGetString(GL_VERSION) << std::endl;
+
+    // setup optional GL debug callback (if available)
+#if defined(GL_VERSION_4_3) || defined(GL_KHR_debug)
+    glEnable(GL_DEBUG_OUTPUT);
+    glEnable(GL_DEBUG_OUTPUT_SYNCHRONOUS);
+    glDebugMessageCallback(
+        [](GLenum source, GLenum type, GLuint id, GLenum severity, GLsizei length, const GLchar* message, const void* userParam){
+            (void)source; (void)type; (void)id; (void)severity; (void)length; (void)userParam;
+            std::cerr << "GL DEBUG: " << message << std::endl;
+        },
+        nullptr);
+#endif
     glViewport(0, 0, WIDTH, HEIGHT);
     glClearColor(0.0f, 0.0f, 0.2f, 1.0f); // navy
 
-    GLuint shaderProgram = createShaderProgram();
-    glm::mat4 projection = glm::ortho(0.0f, float(WIDTH), 0.0f, float(HEIGHT));
-    GLuint projLoc = glGetUniformLocation(shaderProgram, "uProjection");
-    glUseProgram(shaderProgram);
-    glUniformMatrix4fv(projLoc, 1, GL_FALSE, &projection[0][0]);
+    // initialize logging first (log file in runtime bin/logs/app.log)
+    // note: init_logging already called above; avoid double-init
+    std::cout << "Initializing subsystems..." << std::endl;
+
+    // load shaders
+    Shader quadShader;
+    if (!quadShader.load("shaders/quad.vert.glsl", "shaders/quad.frag.glsl")) {
+        std::cerr << "Failed to load quad shaders\n";
+        std::cerr << "Make sure 'shaders' folder is next to the executable (bin/shaders).\n";
+        std::cerr << "Press Enter to exit...\n";
+        std::cin.get();
+        return -1;
+    }
+    std::cout << "Quad shader loaded" << std::endl;
+
+    // Note: skipping 3D model shader and camera setup — using 2D rendering only
     // ------------------------- Dear ImGui -------------------------
     IMGUI_CHECKVERSION();
     ImGui::CreateContext();
@@ -176,19 +164,25 @@ int main() {
     // Initialize ImGui backends
     ImGui_ImplGlfw_InitForOpenGL(window, true);
     ImGui_ImplOpenGL3_Init("#version 330 core");
+    std::cout << "ImGui initialized" << std::endl;
 
     // ------------------------- Roads + Cars -------------------------
-    Rect verticalRoad = createRect(300, 0, 50, HEIGHT);
-    Rect horizontalRoad = createRect(0, 250, WIDTH, 50);
+
+    Quad verticalRoad(300, 0, 50, HEIGHT);
+    Quad horizontalRoad(0, 250, WIDTH, 50);
 
     std::vector<Car> cars = {
         {310,0,20,10,100.0f,0},
         {0,260,20,10,120.0f,3}
     };
-    std::vector<Rect> carRects = {
-        createRect(cars[0].x,cars[0].y,cars[0].w,cars[0].h),
-        createRect(cars[1].x,cars[1].y,cars[1].w,cars[1].h)
-    };
+    // 2D rectangles used to represent cars
+    std::vector<std::unique_ptr<Quad>> carRects;
+    carRects.push_back(std::make_unique<Quad>(cars[0].x, cars[0].y, cars[0].w, cars[0].h));
+    carRects.push_back(std::make_unique<Quad>(cars[1].x, cars[1].y, cars[1].w, cars[1].h));
+
+    // Model drawing flag (can be toggled at runtime via ImGui)
+    bool drawModels = true;
+    if (drawModels) std::cout << "Model drawing is ENABLED" << std::endl;
 
     // ImGui-controlled parameters
     int imgui_numCars = (int)cars.size();
@@ -208,13 +202,31 @@ int main() {
 #endif
 
     // ------------------------- Main loop -------------------------
-    while (!glfwWindowShouldClose(window)) {
-        glClear(GL_COLOR_BUFFER_BIT);
+    std::cout << "Entering main loop" << std::endl;
+    int frameCounter = 0;
+    // log window-close events
+    glfwSetWindowCloseCallback(window, [](GLFWwindow* wnd){
+        (void)wnd;
+        std::cout << "Window close requested" << std::endl;
+    });
 
-        // Draw roads
-        drawRect(verticalRoad, shaderProgram, 0.2f, 0.2f, 0.2f);
-        drawRect(horizontalRoad, shaderProgram, 0.2f, 0.2f, 0.2f);
+    try {
+        while (!glfwWindowShouldClose(window)) {
+            std::cout << "Frame " << frameCounter << " start" << std::endl;
+            // Clear both color and depth so 3D rendering has a fresh depth buffer
+            glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+            checkGLError("glClear");
 
+        // (3D model drawing removed) — render 2D overlay below
+
+        // Draw roads (2D quads) as overlay (depth test disabled)
+        quadShader.use();
+        quadShader.setMat4("uProjection", glm::ortho(0.0f, float(WIDTH), 0.0f, float(HEIGHT)));
+        verticalRoad.draw(quadShader, glm::vec3(0.2f, 0.2f, 0.2f));
+        horizontalRoad.draw(quadShader, glm::vec3(0.2f, 0.2f, 0.2f));
+
+        std::cout << "After clearing frame" << std::endl;
+        checkGLError("after clear");
         // Update + draw cars (frame-rate independent)
         double now = glfwGetTime();
         static double lastTime = now;
@@ -222,18 +234,30 @@ int main() {
         lastTime = now;
 
         if (!paused) updateCars(cars, dt);
-        for (int i = 0; i < cars.size(); ++i) {
-            updateRect(carRects[i], cars[i].x, cars[i].y, cars[i].w, cars[i].h);
-            drawRect(carRects[i], shaderProgram, 1.0f, 0.0f, 0.0f);
+
+        // Update 2D car rect positions and draw them using the quad shader
+        for (size_t i = 0; i < cars.size(); ++i) {
+            if (i < carRects.size()) {
+                carRects[i]->update(cars[i].x, cars[i].y, cars[i].w, cars[i].h);
+            }
+        }
+        quadShader.use();
+        quadShader.setMat4("uProjection", glm::ortho(0.0f, float(WIDTH), 0.0f, float(HEIGHT)));
+        for (auto &r : carRects) {
+            r->draw(quadShader, glm::vec3(1.0f, 0.0f, 0.0f));
         }
         // ---- ImGui frame ----
         ImGui_ImplOpenGL3_NewFrame();
         ImGui_ImplGlfw_NewFrame();
         ImGui::NewFrame();
 
+        if (frameCounter == 0) std::cout << "First frame beginning" << std::endl;
+        frameCounter++;
+
         ImGui::Begin("Controls");
         ImGui::Text("Cars: %d", (int)cars.size());
         ImGui::InputInt("Number of cars", &imgui_numCars);
+        ImGui::Checkbox("Draw Models", &drawModels);
         if (imgui_numCars < 0) imgui_numCars = 0;
         if (ImGui::Button(paused ? "Resume" : "Pause")) paused = !paused;
         ImGui::SameLine();
@@ -252,13 +276,11 @@ int main() {
                 for (int i = cars.size(); i < target; ++i) {
                     Car c = {10.0f * i, 260.0f, 20.0f, 10.0f, globalSpeed, 3};
                     cars.push_back(c);
-                    carRects.push_back(createRect(c.x, c.y, c.w, c.h));
+                    carRects.push_back(std::make_unique<Quad>(c.x, c.y, c.w, c.h));
                 }
             } else {
                 // remove cars and delete GL buffers
                 for (int i = (int)cars.size() - 1; i >= target; --i) {
-                    glDeleteBuffers(1, &carRects[i].VBO);
-                    glDeleteVertexArrays(1, &carRects[i].VAO);
                     carRects.pop_back();
                     cars.pop_back();
                 }
@@ -270,8 +292,21 @@ int main() {
 
         ImGui::Render();
         ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
+        checkGLError("ImGui RenderDrawData");
         glfwSwapBuffers(window);
+        checkGLError("glfwSwapBuffers");
         glfwPollEvents();
+        std::cout << "Frame " << frameCounter-1 << " end" << std::endl;
+        // loop end
+        }
+    } catch (const std::exception &ex) {
+        std::cerr << "Unhandled exception in main loop: " << ex.what() << std::endl;
+        std::cerr << "Press Enter to exit..." << std::endl;
+        std::cin.get();
+    } catch (...) {
+        std::cerr << "Unknown crash in main loop" << std::endl;
+        std::cerr << "Press Enter to exit..." << std::endl;
+        std::cin.get();
     }
 
     // ImGui cleanup
@@ -280,5 +315,8 @@ int main() {
     ImGui::DestroyContext();
 
     glfwTerminate();
+    std::cout << "Application exiting. Press Enter to close..." << std::endl;
+    shutdown_logging();
+    std::cin.get();
     return 0;
 }

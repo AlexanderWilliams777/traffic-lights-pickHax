@@ -23,12 +23,35 @@ file(GLOB IMGUI_SRC
 # --------------------------------------------------
 add_executable(SmartFlow ${SOURCES})
 target_sources(SmartFlow PRIVATE ${IMGUI_SRC})
+# Ensure Shader.cpp is compiled (explicitly add new render sources)
+target_sources(SmartFlow PRIVATE
+    ${CMAKE_SOURCE_DIR}/src/render/Shader.cpp
+)
+target_sources(SmartFlow PRIVATE
+    ${CMAKE_SOURCE_DIR}/src/render/Quad.cpp
+    ${CMAKE_SOURCE_DIR}/src/render/Texture.cpp
+)
+target_sources(SmartFlow PRIVATE
+    ${CMAKE_SOURCE_DIR}/src/render/Renderer.cpp
+)
+target_sources(SmartFlow PRIVATE
+    ${CMAKE_SOURCE_DIR}/src/render/Mesh.cpp
+    ${CMAKE_SOURCE_DIR}/src/render/Model.cpp
+)
+target_sources(SmartFlow PRIVATE
+    ${CMAKE_SOURCE_DIR}/src/logging.cpp
+)
+## tinyobjloader is a header-only implementation included from include/; no source file to add
+target_sources(SmartFlow PRIVATE
+    ${CMAKE_SOURCE_DIR}/src/render/Camera.cpp
+)
 
 # --------------------------------------------------
 # Include Directories
 # --------------------------------------------------
 target_include_directories(SmartFlow PRIVATE
     ${CMAKE_SOURCE_DIR}/src
+    ${CMAKE_SOURCE_DIR}/include
     ${CMAKE_SOURCE_DIR}/external/include
     ${CMAKE_SOURCE_DIR}/external/include/MyGUI/include
     ${CMAKE_SOURCE_DIR}/external/include/MyGUI/Common
@@ -65,5 +88,13 @@ add_custom_command(TARGET SmartFlow POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_if_different
         ${CMAKE_SOURCE_DIR}/external/lib/glfw3.dll
         $<TARGET_FILE_DIR:SmartFlow>
-    # (no MyGUI media to copy when using Dear ImGui)
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+        ${CMAKE_SOURCE_DIR}/src/shaders
+        $<TARGET_FILE_DIR:SmartFlow>/shaders
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+        ${CMAKE_SOURCE_DIR}/external/include/ImGui
+        $<TARGET_FILE_DIR:SmartFlow>/ImGui
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+        ${CMAKE_SOURCE_DIR}/assets/models
+        $<TARGET_FILE_DIR:SmartFlow>/models
 )
