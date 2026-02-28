@@ -1,0 +1,61 @@
+# Ignore common build directories and CMake files
+/build/
+/out/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+*.ninja
+*.ninja_deps
+*.ninja_log
+
+# IDE files
+.vs/
+.idea/
+.vscode/
+
+# Visual Studio user files
+*.vcxproj.user
+*.suo
+*.user
+
+# Obj / binary / library files
+*.o
+*.obj
+*.lo
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.exe
+*.pdb
+
+# Temporary / editor swap files / logs
+*~
+*.swp
+*.tmp
+*.log
+*.tlog
+*.cache
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Copilot / other local tools
+.copilot/
+.copilot-*
+*.copilot
+
+# Ensure project folders are kept (negate above patterns)
+!external/
+!external/**
+!src/
+!src/**
+!bin/
+!bin/**
+!assets/
+!assets/**
