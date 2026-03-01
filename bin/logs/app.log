@@ -4,21 +4,6 @@ glfwInit() succeeded
 GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
 Initializing subsystems...
 Quad shader loaded
-Model shader loaded
-Projection and view matrices set
-ImGui initialized
-Car model loaded
-Model drawing is ENABLED
-Entering main loop
-Frame 0 start
-Drawing models
-Fatal signal: 11 - terminating
--- Log started --
-Application start
-glfwInit() succeeded
-GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
-Initializing subsystems...
-Quad shader loaded
 ImGui initialized
 Model drawing is ENABLED
 Entering main loop
@@ -2449,6 +2434,3460 @@ After clearing frame
 Frame 807 end
 Frame 808 start
 After clearing frame
-Window close requested
 Frame 808 end
+Frame 809 start
+After clearing frame
+Frame 809 end
+Frame 810 start
+After clearing frame
+Frame 810 end
+Frame 811 start
+After clearing frame
+Frame 811 end
+Frame 812 start
+After clearing frame
+Frame 812 end
+Frame 813 start
+After clearing frame
+Frame 813 end
+Frame 814 start
+After clearing frame
+Frame 814 end
+Frame 815 start
+After clearing frame
+Frame 815 end
+Frame 816 start
+After clearing frame
+Frame 816 end
+Frame 817 start
+After clearing frame
+Frame 817 end
+Frame 818 start
+After clearing frame
+Frame 818 end
+Frame 819 start
+After clearing frame
+Frame 819 end
+Frame 820 start
+After clearing frame
+Frame 820 end
+Frame 821 start
+After clearing frame
+Frame 821 end
+Frame 822 start
+After clearing frame
+Frame 822 end
+Frame 823 start
+After clearing frame
+Frame 823 end
+Frame 824 start
+After clearing frame
+Frame 824 end
+Frame 825 start
+After clearing frame
+Frame 825 end
+Frame 826 start
+After clearing frame
+Frame 826 end
+Frame 827 start
+After clearing frame
+Frame 827 end
+Frame 828 start
+After clearing frame
+Frame 828 end
+Frame 829 start
+After clearing frame
+Frame 829 end
+Frame 830 start
+After clearing frame
+Frame 830 end
+Frame 831 start
+After clearing frame
+Frame 831 end
+Frame 832 start
+After clearing frame
+Frame 832 end
+Frame 833 start
+After clearing frame
+Frame 833 end
+Frame 834 start
+After clearing frame
+Frame 834 end
+Frame 835 start
+After clearing frame
+Frame 835 end
+Frame 836 start
+After clearing frame
+Frame 836 end
+Frame 837 start
+After clearing frame
+Frame 837 end
+Frame 838 start
+After clearing frame
+Frame 838 end
+Frame 839 start
+After clearing frame
+Frame 839 end
+Frame 840 start
+After clearing frame
+Frame 840 end
+Frame 841 start
+After clearing frame
+Frame 841 end
+Frame 842 start
+After clearing frame
+Frame 842 end
+Frame 843 start
+After clearing frame
+Frame 843 end
+Frame 844 start
+After clearing frame
+Frame 844 end
+Frame 845 start
+After clearing frame
+Frame 845 end
+Frame 846 start
+After clearing frame
+Frame 846 end
+Frame 847 start
+After clearing frame
+Frame 847 end
+Frame 848 start
+After clearing frame
+Frame 848 end
+Frame 849 start
+After clearing frame
+Frame 849 end
+Frame 850 start
+After clearing frame
+Frame 850 end
+Frame 851 start
+After clearing frame
+Frame 851 end
+Frame 852 start
+After clearing frame
+Frame 852 end
+Frame 853 start
+After clearing frame
+Frame 853 end
+Frame 854 start
+After clearing frame
+Frame 854 end
+Frame 855 start
+After clearing frame
+Frame 855 end
+Frame 856 start
+After clearing frame
+Frame 856 end
+Frame 857 start
+After clearing frame
+Frame 857 end
+Frame 858 start
+After clearing frame
+Frame 858 end
+Frame 859 start
+After clearing frame
+Frame 859 end
+Frame 860 start
+After clearing frame
+Frame 860 end
+Frame 861 start
+After clearing frame
+Frame 861 end
+Frame 862 start
+After clearing frame
+Frame 862 end
+Frame 863 start
+After clearing frame
+Frame 863 end
+Frame 864 start
+After clearing frame
+Frame 864 end
+Frame 865 start
+After clearing frame
+Frame 865 end
+Frame 866 start
+After clearing frame
+Frame 866 end
+Frame 867 start
+After clearing frame
+Frame 867 end
+Frame 868 start
+After clearing frame
+Frame 868 end
+Frame 869 start
+After clearing frame
+Frame 869 end
+Frame 870 start
+After clearing frame
+Frame 870 end
+Frame 871 start
+After clearing frame
+Frame 871 end
+Frame 872 start
+After clearing frame
+Frame 872 end
+Frame 873 start
+After clearing frame
+Frame 873 end
+Frame 874 start
+After clearing frame
+Frame 874 end
+Frame 875 start
+After clearing frame
+Frame 875 end
+Frame 876 start
+After clearing frame
+Frame 876 end
+Frame 877 start
+After clearing frame
+Frame 877 end
+Frame 878 start
+After clearing frame
+Frame 878 end
+Frame 879 start
+After clearing frame
+Frame 879 end
+Frame 880 start
+After clearing frame
+Frame 880 end
+Frame 881 start
+After clearing frame
+Frame 881 end
+Frame 882 start
+After clearing frame
+Frame 882 end
+Frame 883 start
+After clearing frame
+Frame 883 end
+Frame 884 start
+After clearing frame
+Frame 884 end
+Frame 885 start
+After clearing frame
+Frame 885 end
+Frame 886 start
+After clearing frame
+Frame 886 end
+Frame 887 start
+After clearing frame
+Frame 887 end
+Frame 888 start
+After clearing frame
+Frame 888 end
+Frame 889 start
+After clearing frame
+Frame 889 end
+Frame 890 start
+After clearing frame
+Frame 890 end
+Frame 891 start
+After clearing frame
+Frame 891 end
+Frame 892 start
+After clearing frame
+Frame 892 end
+Frame 893 start
+After clearing frame
+Frame 893 end
+Frame 894 start
+After clearing frame
+Frame 894 end
+Frame 895 start
+After clearing frame
+Frame 895 end
+Frame 896 start
+After clearing frame
+Frame 896 end
+Frame 897 start
+After clearing frame
+Frame 897 end
+Frame 898 start
+After clearing frame
+Frame 898 end
+Frame 899 start
+After clearing frame
+Frame 899 end
+Frame 900 start
+After clearing frame
+Frame 900 end
+Frame 901 start
+After clearing frame
+Frame 901 end
+Frame 902 start
+After clearing frame
+Frame 902 end
+Frame 903 start
+After clearing frame
+Frame 903 end
+Frame 904 start
+After clearing frame
+Frame 904 end
+Frame 905 start
+After clearing frame
+Frame 905 end
+Frame 906 start
+After clearing frame
+Frame 906 end
+Frame 907 start
+After clearing frame
+Frame 907 end
+Frame 908 start
+After clearing frame
+Frame 908 end
+Frame 909 start
+After clearing frame
+Frame 909 end
+Frame 910 start
+After clearing frame
+Frame 910 end
+Frame 911 start
+After clearing frame
+Frame 911 end
+Frame 912 start
+After clearing frame
+Frame 912 end
+Frame 913 start
+After clearing frame
+Frame 913 end
+Frame 914 start
+After clearing frame
+Frame 914 end
+Frame 915 start
+After clearing frame
+Frame 915 end
+Frame 916 start
+After clearing frame
+Frame 916 end
+Frame 917 start
+After clearing frame
+Frame 917 end
+Frame 918 start
+After clearing frame
+Frame 918 end
+Frame 919 start
+After clearing frame
+Frame 919 end
+Frame 920 start
+After clearing frame
+Frame 920 end
+Frame 921 start
+After clearing frame
+Frame 921 end
+Frame 922 start
+After clearing frame
+Frame 922 end
+Frame 923 start
+After clearing frame
+Frame 923 end
+Frame 924 start
+After clearing frame
+Frame 924 end
+Frame 925 start
+After clearing frame
+Frame 925 end
+Frame 926 start
+After clearing frame
+Frame 926 end
+Frame 927 start
+After clearing frame
+Frame 927 end
+Frame 928 start
+After clearing frame
+Frame 928 end
+Frame 929 start
+After clearing frame
+Frame 929 end
+Frame 930 start
+After clearing frame
+Frame 930 end
+Frame 931 start
+After clearing frame
+Frame 931 end
+Frame 932 start
+After clearing frame
+Frame 932 end
+Frame 933 start
+After clearing frame
+Frame 933 end
+Frame 934 start
+After clearing frame
+Frame 934 end
+Frame 935 start
+After clearing frame
+Frame 935 end
+Frame 936 start
+After clearing frame
+Frame 936 end
+Frame 937 start
+After clearing frame
+Frame 937 end
+Frame 938 start
+After clearing frame
+Frame 938 end
+Frame 939 start
+After clearing frame
+Frame 939 end
+Frame 940 start
+After clearing frame
+Frame 940 end
+Frame 941 start
+After clearing frame
+Frame 941 end
+Frame 942 start
+After clearing frame
+Frame 942 end
+Frame 943 start
+After clearing frame
+Frame 943 end
+Frame 944 start
+After clearing frame
+Frame 944 end
+Frame 945 start
+After clearing frame
+Frame 945 end
+Frame 946 start
+After clearing frame
+Frame 946 end
+Frame 947 start
+After clearing frame
+Frame 947 end
+Frame 948 start
+After clearing frame
+Frame 948 end
+Frame 949 start
+After clearing frame
+Frame 949 end
+Frame 950 start
+After clearing frame
+Frame 950 end
+Frame 951 start
+After clearing frame
+Frame 951 end
+Frame 952 start
+After clearing frame
+Frame 952 end
+Frame 953 start
+After clearing frame
+Frame 953 end
+Frame 954 start
+After clearing frame
+Frame 954 end
+Frame 955 start
+After clearing frame
+Frame 955 end
+Frame 956 start
+After clearing frame
+Frame 956 end
+Frame 957 start
+After clearing frame
+Frame 957 end
+Frame 958 start
+After clearing frame
+Frame 958 end
+Frame 959 start
+After clearing frame
+Frame 959 end
+Frame 960 start
+After clearing frame
+Frame 960 end
+Frame 961 start
+After clearing frame
+Frame 961 end
+Frame 962 start
+After clearing frame
+Frame 962 end
+Frame 963 start
+After clearing frame
+Frame 963 end
+Frame 964 start
+After clearing frame
+Frame 964 end
+Frame 965 start
+After clearing frame
+Frame 965 end
+Frame 966 start
+After clearing frame
+Frame 966 end
+Frame 967 start
+After clearing frame
+Frame 967 end
+Frame 968 start
+After clearing frame
+Frame 968 end
+Frame 969 start
+After clearing frame
+Frame 969 end
+Frame 970 start
+After clearing frame
+Frame 970 end
+Frame 971 start
+After clearing frame
+Frame 971 end
+Frame 972 start
+After clearing frame
+Frame 972 end
+Frame 973 start
+After clearing frame
+Frame 973 end
+Frame 974 start
+After clearing frame
+Frame 974 end
+Frame 975 start
+After clearing frame
+Frame 975 end
+Frame 976 start
+After clearing frame
+Frame 976 end
+Frame 977 start
+After clearing frame
+Frame 977 end
+Frame 978 start
+After clearing frame
+Frame 978 end
+Frame 979 start
+After clearing frame
+Frame 979 end
+Frame 980 start
+After clearing frame
+Frame 980 end
+Frame 981 start
+After clearing frame
+Frame 981 end
+Frame 982 start
+After clearing frame
+Frame 982 end
+Frame 983 start
+After clearing frame
+Frame 983 end
+Frame 984 start
+After clearing frame
+Frame 984 end
+Frame 985 start
+After clearing frame
+Frame 985 end
+Frame 986 start
+After clearing frame
+Frame 986 end
+Frame 987 start
+After clearing frame
+Frame 987 end
+Frame 988 start
+After clearing frame
+Frame 988 end
+Frame 989 start
+After clearing frame
+Frame 989 end
+Frame 990 start
+After clearing frame
+Frame 990 end
+Frame 991 start
+After clearing frame
+Frame 991 end
+Frame 992 start
+After clearing frame
+Frame 992 end
+Frame 993 start
+After clearing frame
+Frame 993 end
+Frame 994 start
+After clearing frame
+Frame 994 end
+Frame 995 start
+After clearing frame
+Frame 995 end
+Frame 996 start
+After clearing frame
+Frame 996 end
+Frame 997 start
+After clearing frame
+Frame 997 end
+Frame 998 start
+After clearing frame
+Frame 998 end
+Frame 999 start
+After clearing frame
+Frame 999 end
+Frame 1000 start
+After clearing frame
+Frame 1000 end
+Frame 1001 start
+After clearing frame
+Frame 1001 end
+Frame 1002 start
+After clearing frame
+Frame 1002 end
+Frame 1003 start
+After clearing frame
+Frame 1003 end
+Frame 1004 start
+After clearing frame
+Frame 1004 end
+Frame 1005 start
+After clearing frame
+Frame 1005 end
+Frame 1006 start
+After clearing frame
+Frame 1006 end
+Frame 1007 start
+After clearing frame
+Frame 1007 end
+Frame 1008 start
+After clearing frame
+Frame 1008 end
+Frame 1009 start
+After clearing frame
+Frame 1009 end
+Frame 1010 start
+After clearing frame
+Frame 1010 end
+Frame 1011 start
+After clearing frame
+Frame 1011 end
+Frame 1012 start
+After clearing frame
+Frame 1012 end
+Frame 1013 start
+After clearing frame
+Frame 1013 end
+Frame 1014 start
+After clearing frame
+Frame 1014 end
+Frame 1015 start
+After clearing frame
+Frame 1015 end
+Frame 1016 start
+After clearing frame
+Frame 1016 end
+Frame 1017 start
+After clearing frame
+Frame 1017 end
+Frame 1018 start
+After clearing frame
+Frame 1018 end
+Frame 1019 start
+After clearing frame
+Frame 1019 end
+Frame 1020 start
+After clearing frame
+Frame 1020 end
+Frame 1021 start
+After clearing frame
+Frame 1021 end
+Frame 1022 start
+After clearing frame
+Frame 1022 end
+Frame 1023 start
+After clearing frame
+Frame 1023 end
+Frame 1024 start
+After clearing frame
+Frame 1024 end
+Frame 1025 start
+After clearing frame
+Frame 1025 end
+Frame 1026 start
+After clearing frame
+Frame 1026 end
+Frame 1027 start
+After clearing frame
+Frame 1027 end
+Frame 1028 start
+After clearing frame
+Frame 1028 end
+Frame 1029 start
+After clearing frame
+Frame 1029 end
+Frame 1030 start
+After clearing frame
+Frame 1030 end
+Frame 1031 start
+After clearing frame
+Frame 1031 end
+Frame 1032 start
+After clearing frame
+Frame 1032 end
+Frame 1033 start
+After clearing frame
+Frame 1033 end
+Frame 1034 start
+After clearing frame
+Frame 1034 end
+Frame 1035 start
+After clearing frame
+Frame 1035 end
+Frame 1036 start
+After clearing frame
+Frame 1036 end
+Frame 1037 start
+After clearing frame
+Frame 1037 end
+Frame 1038 start
+After clearing frame
+Frame 1038 end
+Frame 1039 start
+After clearing frame
+Frame 1039 end
+Frame 1040 start
+After clearing frame
+Frame 1040 end
+Frame 1041 start
+After clearing frame
+Frame 1041 end
+Frame 1042 start
+After clearing frame
+Frame 1042 end
+Frame 1043 start
+After clearing frame
+Frame 1043 end
+Frame 1044 start
+After clearing frame
+Frame 1044 end
+Frame 1045 start
+After clearing frame
+Frame 1045 end
+Frame 1046 start
+After clearing frame
+Frame 1046 end
+Frame 1047 start
+After clearing frame
+Frame 1047 end
+Frame 1048 start
+After clearing frame
+Frame 1048 end
+Frame 1049 start
+After clearing frame
+Frame 1049 end
+Frame 1050 start
+After clearing frame
+Frame 1050 end
+Frame 1051 start
+After clearing frame
+Frame 1051 end
+Frame 1052 start
+After clearing frame
+Frame 1052 end
+Frame 1053 start
+After clearing frame
+Frame 1053 end
+Frame 1054 start
+After clearing frame
+Frame 1054 end
+Frame 1055 start
+After clearing frame
+Frame 1055 end
+Frame 1056 start
+After clearing frame
+Frame 1056 end
+Frame 1057 start
+After clearing frame
+Frame 1057 end
+Frame 1058 start
+After clearing frame
+Frame 1058 end
+Frame 1059 start
+After clearing frame
+Frame 1059 end
+Frame 1060 start
+After clearing frame
+Frame 1060 end
+Frame 1061 start
+After clearing frame
+Frame 1061 end
+Frame 1062 start
+After clearing frame
+Frame 1062 end
+Frame 1063 start
+After clearing frame
+Frame 1063 end
+Frame 1064 start
+After clearing frame
+Frame 1064 end
+Frame 1065 start
+After clearing frame
+Frame 1065 end
+Frame 1066 start
+After clearing frame
+Frame 1066 end
+Frame 1067 start
+After clearing frame
+Frame 1067 end
+Frame 1068 start
+After clearing frame
+Frame 1068 end
+Frame 1069 start
+After clearing frame
+Frame 1069 end
+Frame 1070 start
+After clearing frame
+Frame 1070 end
+Frame 1071 start
+After clearing frame
+Frame 1071 end
+Frame 1072 start
+After clearing frame
+Frame 1072 end
+Frame 1073 start
+After clearing frame
+Frame 1073 end
+Frame 1074 start
+After clearing frame
+Frame 1074 end
+Frame 1075 start
+After clearing frame
+Frame 1075 end
+Frame 1076 start
+After clearing frame
+Frame 1076 end
+Frame 1077 start
+After clearing frame
+Frame 1077 end
+Frame 1078 start
+After clearing frame
+Frame 1078 end
+Frame 1079 start
+After clearing frame
+Frame 1079 end
+Frame 1080 start
+After clearing frame
+Frame 1080 end
+Frame 1081 start
+After clearing frame
+Frame 1081 end
+Frame 1082 start
+After clearing frame
+Frame 1082 end
+Frame 1083 start
+After clearing frame
+Frame 1083 end
+Frame 1084 start
+After clearing frame
+Frame 1084 end
+Frame 1085 start
+After clearing frame
+Frame 1085 end
+Frame 1086 start
+After clearing frame
+Frame 1086 end
+Frame 1087 start
+After clearing frame
+Frame 1087 end
+Frame 1088 start
+After clearing frame
+Frame 1088 end
+Frame 1089 start
+After clearing frame
+Frame 1089 end
+Frame 1090 start
+After clearing frame
+Frame 1090 end
+Frame 1091 start
+After clearing frame
+Frame 1091 end
+Frame 1092 start
+After clearing frame
+Frame 1092 end
+Frame 1093 start
+After clearing frame
+Frame 1093 end
+Frame 1094 start
+After clearing frame
+Frame 1094 end
+Frame 1095 start
+After clearing frame
+Frame 1095 end
+Frame 1096 start
+After clearing frame
+Frame 1096 end
+Frame 1097 start
+After clearing frame
+Frame 1097 end
+Frame 1098 start
+After clearing frame
+Frame 1098 end
+Frame 1099 start
+After clearing frame
+Frame 1099 end
+Frame 1100 start
+After clearing frame
+Frame 1100 end
+Frame 1101 start
+After clearing frame
+Frame 1101 end
+Frame 1102 start
+After clearing frame
+Frame 1102 end
+Frame 1103 start
+After clearing frame
+Frame 1103 end
+Frame 1104 start
+After clearing frame
+Frame 1104 end
+Frame 1105 start
+After clearing frame
+Frame 1105 end
+Frame 1106 start
+After clearing frame
+Frame 1106 end
+Frame 1107 start
+After clearing frame
+Frame 1107 end
+Frame 1108 start
+After clearing frame
+Frame 1108 end
+Frame 1109 start
+After clearing frame
+Frame 1109 end
+Frame 1110 start
+After clearing frame
+Frame 1110 end
+Frame 1111 start
+After clearing frame
+Frame 1111 end
+Frame 1112 start
+After clearing frame
+Frame 1112 end
+Frame 1113 start
+After clearing frame
+Frame 1113 end
+Frame 1114 start
+After clearing frame
+Frame 1114 end
+Frame 1115 start
+After clearing frame
+Frame 1115 end
+Frame 1116 start
+After clearing frame
+Frame 1116 end
+Frame 1117 start
+After clearing frame
+Frame 1117 end
+Frame 1118 start
+After clearing frame
+Frame 1118 end
+Frame 1119 start
+After clearing frame
+Frame 1119 end
+Frame 1120 start
+After clearing frame
+Frame 1120 end
+Frame 1121 start
+After clearing frame
+Frame 1121 end
+Frame 1122 start
+After clearing frame
+Frame 1122 end
+Frame 1123 start
+After clearing frame
+Frame 1123 end
+Frame 1124 start
+After clearing frame
+Frame 1124 end
+Frame 1125 start
+After clearing frame
+Frame 1125 end
+Frame 1126 start
+After clearing frame
+Frame 1126 end
+Frame 1127 start
+After clearing frame
+Frame 1127 end
+Frame 1128 start
+After clearing frame
+Frame 1128 end
+Frame 1129 start
+After clearing frame
+Frame 1129 end
+Frame 1130 start
+After clearing frame
+Frame 1130 end
+Frame 1131 start
+After clearing frame
+Frame 1131 end
+Frame 1132 start
+After clearing frame
+Frame 1132 end
+Frame 1133 start
+After clearing frame
+Frame 1133 end
+Frame 1134 start
+After clearing frame
+Frame 1134 end
+Frame 1135 start
+After clearing frame
+Frame 1135 end
+Frame 1136 start
+After clearing frame
+Frame 1136 end
+Frame 1137 start
+After clearing frame
+Frame 1137 end
+Frame 1138 start
+After clearing frame
+Frame 1138 end
+Frame 1139 start
+After clearing frame
+Frame 1139 end
+Frame 1140 start
+After clearing frame
+Frame 1140 end
+Frame 1141 start
+After clearing frame
+Frame 1141 end
+Frame 1142 start
+After clearing frame
+Frame 1142 end
+Frame 1143 start
+After clearing frame
+Frame 1143 end
+Frame 1144 start
+After clearing frame
+Frame 1144 end
+Frame 1145 start
+After clearing frame
+Frame 1145 end
+Frame 1146 start
+After clearing frame
+Frame 1146 end
+Frame 1147 start
+After clearing frame
+Frame 1147 end
+Frame 1148 start
+After clearing frame
+Frame 1148 end
+Frame 1149 start
+After clearing frame
+Frame 1149 end
+Frame 1150 start
+After clearing frame
+Frame 1150 end
+Frame 1151 start
+After clearing frame
+Frame 1151 end
+Frame 1152 start
+After clearing frame
+Frame 1152 end
+Frame 1153 start
+After clearing frame
+Frame 1153 end
+Frame 1154 start
+After clearing frame
+Frame 1154 end
+Frame 1155 start
+After clearing frame
+Frame 1155 end
+Frame 1156 start
+After clearing frame
+Frame 1156 end
+Frame 1157 start
+After clearing frame
+Frame 1157 end
+Frame 1158 start
+After clearing frame
+Frame 1158 end
+Frame 1159 start
+After clearing frame
+Frame 1159 end
+Frame 1160 start
+After clearing frame
+Frame 1160 end
+Frame 1161 start
+After clearing frame
+Frame 1161 end
+Frame 1162 start
+After clearing frame
+Frame 1162 end
+Frame 1163 start
+After clearing frame
+Frame 1163 end
+Frame 1164 start
+After clearing frame
+Frame 1164 end
+Frame 1165 start
+After clearing frame
+Frame 1165 end
+Frame 1166 start
+After clearing frame
+Frame 1166 end
+Frame 1167 start
+After clearing frame
+Frame 1167 end
+Frame 1168 start
+After clearing frame
+Frame 1168 end
+Frame 1169 start
+After clearing frame
+Frame 1169 end
+Frame 1170 start
+After clearing frame
+Frame 1170 end
+Frame 1171 start
+After clearing frame
+Frame 1171 end
+Frame 1172 start
+After clearing frame
+Frame 1172 end
+Frame 1173 start
+After clearing frame
+Frame 1173 end
+Frame 1174 start
+After clearing frame
+Frame 1174 end
+Frame 1175 start
+After clearing frame
+Frame 1175 end
+Frame 1176 start
+After clearing frame
+Frame 1176 end
+Frame 1177 start
+After clearing frame
+Frame 1177 end
+Frame 1178 start
+After clearing frame
+Frame 1178 end
+Frame 1179 start
+After clearing frame
+Frame 1179 end
+Frame 1180 start
+After clearing frame
+Frame 1180 end
+Frame 1181 start
+After clearing frame
+Frame 1181 end
+Frame 1182 start
+After clearing frame
+Frame 1182 end
+Frame 1183 start
+After clearing frame
+Frame 1183 end
+Frame 1184 start
+After clearing frame
+Frame 1184 end
+Frame 1185 start
+After clearing frame
+Frame 1185 end
+Frame 1186 start
+After clearing frame
+Frame 1186 end
+Frame 1187 start
+After clearing frame
+Frame 1187 end
+Frame 1188 start
+After clearing frame
+Frame 1188 end
+Frame 1189 start
+After clearing frame
+Frame 1189 end
+Frame 1190 start
+After clearing frame
+Frame 1190 end
+Frame 1191 start
+After clearing frame
+Frame 1191 end
+Frame 1192 start
+After clearing frame
+Frame 1192 end
+Frame 1193 start
+After clearing frame
+Frame 1193 end
+Frame 1194 start
+After clearing frame
+Frame 1194 end
+Frame 1195 start
+After clearing frame
+Frame 1195 end
+Frame 1196 start
+After clearing frame
+Frame 1196 end
+Frame 1197 start
+After clearing frame
+Frame 1197 end
+Frame 1198 start
+After clearing frame
+Frame 1198 end
+Frame 1199 start
+After clearing frame
+Frame 1199 end
+Frame 1200 start
+After clearing frame
+Frame 1200 end
+Frame 1201 start
+After clearing frame
+Frame 1201 end
+Frame 1202 start
+After clearing frame
+Frame 1202 end
+Frame 1203 start
+After clearing frame
+Frame 1203 end
+Frame 1204 start
+After clearing frame
+Frame 1204 end
+Frame 1205 start
+After clearing frame
+Frame 1205 end
+Frame 1206 start
+After clearing frame
+Frame 1206 end
+Frame 1207 start
+After clearing frame
+Frame 1207 end
+Frame 1208 start
+After clearing frame
+Frame 1208 end
+Frame 1209 start
+After clearing frame
+Frame 1209 end
+Frame 1210 start
+After clearing frame
+Frame 1210 end
+Frame 1211 start
+After clearing frame
+Frame 1211 end
+Frame 1212 start
+After clearing frame
+Frame 1212 end
+Frame 1213 start
+After clearing frame
+Frame 1213 end
+Frame 1214 start
+After clearing frame
+Frame 1214 end
+Frame 1215 start
+After clearing frame
+Frame 1215 end
+Frame 1216 start
+After clearing frame
+Frame 1216 end
+Frame 1217 start
+After clearing frame
+Frame 1217 end
+Frame 1218 start
+After clearing frame
+Frame 1218 end
+Frame 1219 start
+After clearing frame
+Frame 1219 end
+Frame 1220 start
+After clearing frame
+Frame 1220 end
+Frame 1221 start
+After clearing frame
+Frame 1221 end
+Frame 1222 start
+After clearing frame
+Frame 1222 end
+Frame 1223 start
+After clearing frame
+Frame 1223 end
+Frame 1224 start
+After clearing frame
+Frame 1224 end
+Frame 1225 start
+After clearing frame
+Frame 1225 end
+Frame 1226 start
+After clearing frame
+Frame 1226 end
+Frame 1227 start
+After clearing frame
+Frame 1227 end
+Frame 1228 start
+After clearing frame
+Frame 1228 end
+Frame 1229 start
+After clearing frame
+Frame 1229 end
+Frame 1230 start
+After clearing frame
+Frame 1230 end
+Frame 1231 start
+After clearing frame
+Frame 1231 end
+Frame 1232 start
+After clearing frame
+Frame 1232 end
+Frame 1233 start
+After clearing frame
+Frame 1233 end
+Frame 1234 start
+After clearing frame
+Frame 1234 end
+Frame 1235 start
+After clearing frame
+Frame 1235 end
+Frame 1236 start
+After clearing frame
+Frame 1236 end
+Frame 1237 start
+After clearing frame
+Frame 1237 end
+Frame 1238 start
+After clearing frame
+Frame 1238 end
+Frame 1239 start
+After clearing frame
+Frame 1239 end
+Frame 1240 start
+After clearing frame
+Frame 1240 end
+Frame 1241 start
+After clearing frame
+Frame 1241 end
+Frame 1242 start
+After clearing frame
+Frame 1242 end
+Frame 1243 start
+After clearing frame
+Frame 1243 end
+Frame 1244 start
+After clearing frame
+Frame 1244 end
+Frame 1245 start
+After clearing frame
+Frame 1245 end
+Frame 1246 start
+After clearing frame
+Frame 1246 end
+Frame 1247 start
+After clearing frame
+Frame 1247 end
+Frame 1248 start
+After clearing frame
+Frame 1248 end
+Frame 1249 start
+After clearing frame
+Frame 1249 end
+Frame 1250 start
+After clearing frame
+Frame 1250 end
+Frame 1251 start
+After clearing frame
+Frame 1251 end
+Frame 1252 start
+After clearing frame
+Frame 1252 end
+Frame 1253 start
+After clearing frame
+Frame 1253 end
+Frame 1254 start
+After clearing frame
+Frame 1254 end
+Frame 1255 start
+After clearing frame
+Frame 1255 end
+Frame 1256 start
+After clearing frame
+Frame 1256 end
+Frame 1257 start
+After clearing frame
+Frame 1257 end
+Frame 1258 start
+After clearing frame
+Frame 1258 end
+Frame 1259 start
+After clearing frame
+Frame 1259 end
+Frame 1260 start
+After clearing frame
+Frame 1260 end
+Frame 1261 start
+After clearing frame
+Frame 1261 end
+Frame 1262 start
+After clearing frame
+Frame 1262 end
+Frame 1263 start
+After clearing frame
+Frame 1263 end
+Frame 1264 start
+After clearing frame
+Frame 1264 end
+Frame 1265 start
+After clearing frame
+Frame 1265 end
+Frame 1266 start
+After clearing frame
+Frame 1266 end
+Frame 1267 start
+After clearing frame
+Frame 1267 end
+Frame 1268 start
+After clearing frame
+Frame 1268 end
+Frame 1269 start
+After clearing frame
+Frame 1269 end
+Frame 1270 start
+After clearing frame
+Frame 1270 end
+Frame 1271 start
+After clearing frame
+Frame 1271 end
+Frame 1272 start
+After clearing frame
+Frame 1272 end
+Frame 1273 start
+After clearing frame
+Frame 1273 end
+Frame 1274 start
+After clearing frame
+Frame 1274 end
+Frame 1275 start
+After clearing frame
+Frame 1275 end
+Frame 1276 start
+After clearing frame
+Frame 1276 end
+Frame 1277 start
+After clearing frame
+Frame 1277 end
+Frame 1278 start
+After clearing frame
+Frame 1278 end
+Frame 1279 start
+After clearing frame
+Frame 1279 end
+Frame 1280 start
+After clearing frame
+Frame 1280 end
+Frame 1281 start
+After clearing frame
+Frame 1281 end
+Frame 1282 start
+After clearing frame
+Frame 1282 end
+Frame 1283 start
+After clearing frame
+Frame 1283 end
+Frame 1284 start
+After clearing frame
+Frame 1284 end
+Frame 1285 start
+After clearing frame
+Frame 1285 end
+Frame 1286 start
+After clearing frame
+Frame 1286 end
+Frame 1287 start
+After clearing frame
+Frame 1287 end
+Frame 1288 start
+After clearing frame
+Frame 1288 end
+Frame 1289 start
+After clearing frame
+Frame 1289 end
+Frame 1290 start
+After clearing frame
+Frame 1290 end
+Frame 1291 start
+After clearing frame
+Frame 1291 end
+Frame 1292 start
+After clearing frame
+Frame 1292 end
+Frame 1293 start
+After clearing frame
+Frame 1293 end
+Frame 1294 start
+After clearing frame
+Frame 1294 end
+Frame 1295 start
+After clearing frame
+Frame 1295 end
+Frame 1296 start
+After clearing frame
+Frame 1296 end
+Frame 1297 start
+After clearing frame
+Frame 1297 end
+Frame 1298 start
+After clearing frame
+Frame 1298 end
+Frame 1299 start
+After clearing frame
+Frame 1299 end
+Frame 1300 start
+After clearing frame
+Frame 1300 end
+Frame 1301 start
+After clearing frame
+Frame 1301 end
+Frame 1302 start
+After clearing frame
+Frame 1302 end
+Frame 1303 start
+After clearing frame
+Frame 1303 end
+Frame 1304 start
+After clearing frame
+Frame 1304 end
+Frame 1305 start
+After clearing frame
+Frame 1305 end
+Frame 1306 start
+After clearing frame
+Frame 1306 end
+Frame 1307 start
+After clearing frame
+Frame 1307 end
+Frame 1308 start
+After clearing frame
+Frame 1308 end
+Frame 1309 start
+After clearing frame
+Frame 1309 end
+Frame 1310 start
+After clearing frame
+Frame 1310 end
+Frame 1311 start
+After clearing frame
+Frame 1311 end
+Frame 1312 start
+After clearing frame
+Frame 1312 end
+Frame 1313 start
+After clearing frame
+Frame 1313 end
+Frame 1314 start
+After clearing frame
+Frame 1314 end
+Frame 1315 start
+After clearing frame
+Frame 1315 end
+Frame 1316 start
+After clearing frame
+Frame 1316 end
+Frame 1317 start
+After clearing frame
+Frame 1317 end
+Frame 1318 start
+After clearing frame
+Frame 1318 end
+Frame 1319 start
+After clearing frame
+Frame 1319 end
+Frame 1320 start
+After clearing frame
+Frame 1320 end
+Frame 1321 start
+After clearing frame
+Frame 1321 end
+Frame 1322 start
+After clearing frame
+Frame 1322 end
+Frame 1323 start
+After clearing frame
+Frame 1323 end
+Frame 1324 start
+After clearing frame
+Frame 1324 end
+Frame 1325 start
+After clearing frame
+Frame 1325 end
+Frame 1326 start
+After clearing frame
+Frame 1326 end
+Frame 1327 start
+After clearing frame
+Frame 1327 end
+Frame 1328 start
+After clearing frame
+Frame 1328 end
+Frame 1329 start
+After clearing frame
+Frame 1329 end
+Frame 1330 start
+After clearing frame
+Frame 1330 end
+Frame 1331 start
+After clearing frame
+Frame 1331 end
+Frame 1332 start
+After clearing frame
+Frame 1332 end
+Frame 1333 start
+After clearing frame
+Frame 1333 end
+Frame 1334 start
+After clearing frame
+Frame 1334 end
+Frame 1335 start
+After clearing frame
+Frame 1335 end
+Frame 1336 start
+After clearing frame
+Frame 1336 end
+Frame 1337 start
+After clearing frame
+Frame 1337 end
+Frame 1338 start
+After clearing frame
+Frame 1338 end
+Frame 1339 start
+After clearing frame
+Frame 1339 end
+Frame 1340 start
+After clearing frame
+Frame 1340 end
+Frame 1341 start
+After clearing frame
+Frame 1341 end
+Frame 1342 start
+After clearing frame
+Frame 1342 end
+Frame 1343 start
+After clearing frame
+Frame 1343 end
+Frame 1344 start
+After clearing frame
+Frame 1344 end
+Frame 1345 start
+After clearing frame
+Frame 1345 end
+Frame 1346 start
+After clearing frame
+Frame 1346 end
+Frame 1347 start
+After clearing frame
+Frame 1347 end
+Frame 1348 start
+After clearing frame
+Frame 1348 end
+Frame 1349 start
+After clearing frame
+Frame 1349 end
+Frame 1350 start
+After clearing frame
+Frame 1350 end
+Frame 1351 start
+After clearing frame
+Frame 1351 end
+Frame 1352 start
+After clearing frame
+Frame 1352 end
+Frame 1353 start
+After clearing frame
+Frame 1353 end
+Frame 1354 start
+After clearing frame
+Frame 1354 end
+Frame 1355 start
+After clearing frame
+Frame 1355 end
+Frame 1356 start
+After clearing frame
+Frame 1356 end
+Frame 1357 start
+After clearing frame
+Frame 1357 end
+Frame 1358 start
+After clearing frame
+Frame 1358 end
+Frame 1359 start
+After clearing frame
+Frame 1359 end
+Frame 1360 start
+After clearing frame
+Frame 1360 end
+Frame 1361 start
+After clearing frame
+Frame 1361 end
+Frame 1362 start
+After clearing frame
+Frame 1362 end
+Frame 1363 start
+After clearing frame
+Frame 1363 end
+Frame 1364 start
+After clearing frame
+Frame 1364 end
+Frame 1365 start
+After clearing frame
+Frame 1365 end
+Frame 1366 start
+After clearing frame
+Frame 1366 end
+Frame 1367 start
+After clearing frame
+Frame 1367 end
+Frame 1368 start
+After clearing frame
+Frame 1368 end
+Frame 1369 start
+After clearing frame
+Frame 1369 end
+Frame 1370 start
+After clearing frame
+Frame 1370 end
+Frame 1371 start
+After clearing frame
+Frame 1371 end
+Frame 1372 start
+After clearing frame
+Frame 1372 end
+Frame 1373 start
+After clearing frame
+Frame 1373 end
+Frame 1374 start
+After clearing frame
+Frame 1374 end
+Frame 1375 start
+After clearing frame
+Frame 1375 end
+Frame 1376 start
+After clearing frame
+Frame 1376 end
+Frame 1377 start
+After clearing frame
+Frame 1377 end
+Frame 1378 start
+After clearing frame
+Frame 1378 end
+Frame 1379 start
+After clearing frame
+Frame 1379 end
+Frame 1380 start
+After clearing frame
+Frame 1380 end
+Frame 1381 start
+After clearing frame
+Frame 1381 end
+Frame 1382 start
+After clearing frame
+Frame 1382 end
+Frame 1383 start
+After clearing frame
+Frame 1383 end
+Frame 1384 start
+After clearing frame
+Frame 1384 end
+Frame 1385 start
+After clearing frame
+Frame 1385 end
+Frame 1386 start
+After clearing frame
+Frame 1386 end
+Frame 1387 start
+After clearing frame
+Frame 1387 end
+Frame 1388 start
+After clearing frame
+Frame 1388 end
+Frame 1389 start
+After clearing frame
+Frame 1389 end
+Frame 1390 start
+After clearing frame
+Frame 1390 end
+Frame 1391 start
+After clearing frame
+Frame 1391 end
+Frame 1392 start
+After clearing frame
+Frame 1392 end
+Frame 1393 start
+After clearing frame
+Frame 1393 end
+Frame 1394 start
+After clearing frame
+Frame 1394 end
+Frame 1395 start
+After clearing frame
+Frame 1395 end
+Frame 1396 start
+After clearing frame
+Frame 1396 end
+Frame 1397 start
+After clearing frame
+Frame 1397 end
+Frame 1398 start
+After clearing frame
+Frame 1398 end
+Frame 1399 start
+After clearing frame
+Frame 1399 end
+Frame 1400 start
+After clearing frame
+Frame 1400 end
+Frame 1401 start
+After clearing frame
+Frame 1401 end
+Frame 1402 start
+After clearing frame
+Frame 1402 end
+Frame 1403 start
+After clearing frame
+Frame 1403 end
+Frame 1404 start
+After clearing frame
+Frame 1404 end
+Frame 1405 start
+After clearing frame
+Frame 1405 end
+Frame 1406 start
+After clearing frame
+Frame 1406 end
+Frame 1407 start
+After clearing frame
+Frame 1407 end
+Frame 1408 start
+After clearing frame
+Frame 1408 end
+Frame 1409 start
+After clearing frame
+Frame 1409 end
+Frame 1410 start
+After clearing frame
+Frame 1410 end
+Frame 1411 start
+After clearing frame
+Frame 1411 end
+Frame 1412 start
+After clearing frame
+Frame 1412 end
+Frame 1413 start
+After clearing frame
+Frame 1413 end
+Frame 1414 start
+After clearing frame
+Frame 1414 end
+Frame 1415 start
+After clearing frame
+Frame 1415 end
+Frame 1416 start
+After clearing frame
+Frame 1416 end
+Frame 1417 start
+After clearing frame
+Frame 1417 end
+Frame 1418 start
+After clearing frame
+Frame 1418 end
+Frame 1419 start
+After clearing frame
+Frame 1419 end
+Frame 1420 start
+After clearing frame
+Frame 1420 end
+Frame 1421 start
+After clearing frame
+Frame 1421 end
+Frame 1422 start
+After clearing frame
+Frame 1422 end
+Frame 1423 start
+After clearing frame
+Frame 1423 end
+Frame 1424 start
+After clearing frame
+Frame 1424 end
+Frame 1425 start
+After clearing frame
+Frame 1425 end
+Frame 1426 start
+After clearing frame
+Frame 1426 end
+Frame 1427 start
+After clearing frame
+Frame 1427 end
+Frame 1428 start
+After clearing frame
+Frame 1428 end
+Frame 1429 start
+After clearing frame
+Frame 1429 end
+Frame 1430 start
+After clearing frame
+Frame 1430 end
+Frame 1431 start
+After clearing frame
+Frame 1431 end
+Frame 1432 start
+After clearing frame
+Frame 1432 end
+Frame 1433 start
+After clearing frame
+Frame 1433 end
+Frame 1434 start
+After clearing frame
+Frame 1434 end
+Frame 1435 start
+After clearing frame
+Frame 1435 end
+Frame 1436 start
+After clearing frame
+Frame 1436 end
+Frame 1437 start
+After clearing frame
+Frame 1437 end
+Frame 1438 start
+After clearing frame
+Frame 1438 end
+Frame 1439 start
+After clearing frame
+Frame 1439 end
+Frame 1440 start
+After clearing frame
+Frame 1440 end
+Frame 1441 start
+After clearing frame
+Frame 1441 end
+Frame 1442 start
+After clearing frame
+Frame 1442 end
+Frame 1443 start
+After clearing frame
+Frame 1443 end
+Frame 1444 start
+After clearing frame
+Frame 1444 end
+Frame 1445 start
+After clearing frame
+Frame 1445 end
+Frame 1446 start
+After clearing frame
+Frame 1446 end
+Frame 1447 start
+After clearing frame
+Frame 1447 end
+Frame 1448 start
+After clearing frame
+Frame 1448 end
+Frame 1449 start
+After clearing frame
+Frame 1449 end
+Frame 1450 start
+After clearing frame
+Frame 1450 end
+Frame 1451 start
+After clearing frame
+Frame 1451 end
+Frame 1452 start
+After clearing frame
+Frame 1452 end
+Frame 1453 start
+After clearing frame
+Frame 1453 end
+Frame 1454 start
+After clearing frame
+Frame 1454 end
+Frame 1455 start
+After clearing frame
+Frame 1455 end
+Frame 1456 start
+After clearing frame
+Frame 1456 end
+Frame 1457 start
+After clearing frame
+Frame 1457 end
+Frame 1458 start
+After clearing frame
+Frame 1458 end
+Frame 1459 start
+After clearing frame
+Frame 1459 end
+Frame 1460 start
+After clearing frame
+Frame 1460 end
+Frame 1461 start
+After clearing frame
+Frame 1461 end
+Frame 1462 start
+After clearing frame
+Frame 1462 end
+Frame 1463 start
+After clearing frame
+Frame 1463 end
+Frame 1464 start
+After clearing frame
+Frame 1464 end
+Frame 1465 start
+After clearing frame
+Frame 1465 end
+Frame 1466 start
+After clearing frame
+Frame 1466 end
+Frame 1467 start
+After clearing frame
+Frame 1467 end
+Frame 1468 start
+After clearing frame
+Frame 1468 end
+Frame 1469 start
+After clearing frame
+Frame 1469 end
+Frame 1470 start
+After clearing frame
+Frame 1470 end
+Frame 1471 start
+After clearing frame
+Frame 1471 end
+Frame 1472 start
+After clearing frame
+Frame 1472 end
+Frame 1473 start
+After clearing frame
+Frame 1473 end
+Frame 1474 start
+After clearing frame
+Frame 1474 end
+Frame 1475 start
+After clearing frame
+Frame 1475 end
+Frame 1476 start
+After clearing frame
+Frame 1476 end
+Frame 1477 start
+After clearing frame
+Frame 1477 end
+Frame 1478 start
+After clearing frame
+Frame 1478 end
+Frame 1479 start
+After clearing frame
+Frame 1479 end
+Frame 1480 start
+After clearing frame
+Frame 1480 end
+Frame 1481 start
+After clearing frame
+Frame 1481 end
+Frame 1482 start
+After clearing frame
+Frame 1482 end
+Frame 1483 start
+After clearing frame
+Frame 1483 end
+Frame 1484 start
+After clearing frame
+Frame 1484 end
+Frame 1485 start
+After clearing frame
+Frame 1485 end
+Frame 1486 start
+After clearing frame
+Frame 1486 end
+Frame 1487 start
+After clearing frame
+Frame 1487 end
+Frame 1488 start
+After clearing frame
+Frame 1488 end
+Frame 1489 start
+After clearing frame
+Frame 1489 end
+Frame 1490 start
+After clearing frame
+Frame 1490 end
+Frame 1491 start
+After clearing frame
+Frame 1491 end
+Frame 1492 start
+After clearing frame
+Frame 1492 end
+Frame 1493 start
+After clearing frame
+Frame 1493 end
+Frame 1494 start
+After clearing frame
+Frame 1494 end
+Frame 1495 start
+After clearing frame
+Frame 1495 end
+Frame 1496 start
+After clearing frame
+Frame 1496 end
+Frame 1497 start
+After clearing frame
+Frame 1497 end
+Frame 1498 start
+After clearing frame
+Frame 1498 end
+Frame 1499 start
+After clearing frame
+Frame 1499 end
+Frame 1500 start
+After clearing frame
+Frame 1500 end
+Frame 1501 start
+After clearing frame
+Frame 1501 end
+Frame 1502 start
+After clearing frame
+Frame 1502 end
+Frame 1503 start
+After clearing frame
+Frame 1503 end
+Frame 1504 start
+After clearing frame
+Frame 1504 end
+Frame 1505 start
+After clearing frame
+Frame 1505 end
+Frame 1506 start
+After clearing frame
+Frame 1506 end
+Frame 1507 start
+After clearing frame
+Frame 1507 end
+Frame 1508 start
+After clearing frame
+Frame 1508 end
+Frame 1509 start
+After clearing frame
+Frame 1509 end
+Frame 1510 start
+After clearing frame
+Frame 1510 end
+Frame 1511 start
+After clearing frame
+Frame 1511 end
+Frame 1512 start
+After clearing frame
+Frame 1512 end
+Frame 1513 start
+After clearing frame
+Frame 1513 end
+Frame 1514 start
+After clearing frame
+Frame 1514 end
+Frame 1515 start
+After clearing frame
+Frame 1515 end
+Frame 1516 start
+After clearing frame
+Frame 1516 end
+Frame 1517 start
+After clearing frame
+Frame 1517 end
+Frame 1518 start
+After clearing frame
+Frame 1518 end
+Frame 1519 start
+After clearing frame
+Frame 1519 end
+Frame 1520 start
+After clearing frame
+Frame 1520 end
+Frame 1521 start
+After clearing frame
+Frame 1521 end
+Frame 1522 start
+After clearing frame
+Frame 1522 end
+Frame 1523 start
+After clearing frame
+Frame 1523 end
+Frame 1524 start
+After clearing frame
+Frame 1524 end
+Frame 1525 start
+After clearing frame
+Frame 1525 end
+Frame 1526 start
+After clearing frame
+Frame 1526 end
+Frame 1527 start
+After clearing frame
+Frame 1527 end
+Frame 1528 start
+After clearing frame
+Frame 1528 end
+Frame 1529 start
+After clearing frame
+Frame 1529 end
+Frame 1530 start
+After clearing frame
+Frame 1530 end
+Frame 1531 start
+After clearing frame
+Frame 1531 end
+Frame 1532 start
+After clearing frame
+Frame 1532 end
+Frame 1533 start
+After clearing frame
+Frame 1533 end
+Frame 1534 start
+After clearing frame
+Frame 1534 end
+Frame 1535 start
+After clearing frame
+Frame 1535 end
+Frame 1536 start
+After clearing frame
+Frame 1536 end
+Frame 1537 start
+After clearing frame
+Frame 1537 end
+Frame 1538 start
+After clearing frame
+Frame 1538 end
+Frame 1539 start
+After clearing frame
+Frame 1539 end
+Frame 1540 start
+After clearing frame
+Frame 1540 end
+Frame 1541 start
+After clearing frame
+Frame 1541 end
+Frame 1542 start
+After clearing frame
+Frame 1542 end
+Frame 1543 start
+After clearing frame
+Frame 1543 end
+Frame 1544 start
+After clearing frame
+Frame 1544 end
+Frame 1545 start
+After clearing frame
+Frame 1545 end
+Frame 1546 start
+After clearing frame
+Frame 1546 end
+Frame 1547 start
+After clearing frame
+Frame 1547 end
+Frame 1548 start
+After clearing frame
+Frame 1548 end
+Frame 1549 start
+After clearing frame
+Frame 1549 end
+Frame 1550 start
+After clearing frame
+Frame 1550 end
+Frame 1551 start
+After clearing frame
+Frame 1551 end
+Frame 1552 start
+After clearing frame
+Frame 1552 end
+Frame 1553 start
+After clearing frame
+Frame 1553 end
+Frame 1554 start
+After clearing frame
+Frame 1554 end
+Frame 1555 start
+After clearing frame
+Frame 1555 end
+Frame 1556 start
+After clearing frame
+Frame 1556 end
+Frame 1557 start
+After clearing frame
+Frame 1557 end
+Frame 1558 start
+After clearing frame
+Frame 1558 end
+Frame 1559 start
+After clearing frame
+Frame 1559 end
+Frame 1560 start
+After clearing frame
+Frame 1560 end
+Frame 1561 start
+After clearing frame
+Frame 1561 end
+Frame 1562 start
+After clearing frame
+Frame 1562 end
+Frame 1563 start
+After clearing frame
+Frame 1563 end
+Frame 1564 start
+After clearing frame
+Frame 1564 end
+Frame 1565 start
+After clearing frame
+Frame 1565 end
+Frame 1566 start
+After clearing frame
+Frame 1566 end
+Frame 1567 start
+After clearing frame
+Frame 1567 end
+Frame 1568 start
+After clearing frame
+Frame 1568 end
+Frame 1569 start
+After clearing frame
+Frame 1569 end
+Frame 1570 start
+After clearing frame
+Frame 1570 end
+Frame 1571 start
+After clearing frame
+Frame 1571 end
+Frame 1572 start
+After clearing frame
+Frame 1572 end
+Frame 1573 start
+After clearing frame
+Frame 1573 end
+Frame 1574 start
+After clearing frame
+Frame 1574 end
+Frame 1575 start
+After clearing frame
+Frame 1575 end
+Frame 1576 start
+After clearing frame
+Frame 1576 end
+Frame 1577 start
+After clearing frame
+Frame 1577 end
+Frame 1578 start
+After clearing frame
+Frame 1578 end
+Frame 1579 start
+After clearing frame
+Frame 1579 end
+Frame 1580 start
+After clearing frame
+Frame 1580 end
+Frame 1581 start
+After clearing frame
+Frame 1581 end
+Frame 1582 start
+After clearing frame
+Frame 1582 end
+Frame 1583 start
+After clearing frame
+Frame 1583 end
+Frame 1584 start
+After clearing frame
+Frame 1584 end
+Frame 1585 start
+After clearing frame
+Frame 1585 end
+Frame 1586 start
+After clearing frame
+Frame 1586 end
+Frame 1587 start
+After clearing frame
+Frame 1587 end
+Frame 1588 start
+After clearing frame
+Frame 1588 end
+Frame 1589 start
+After clearing frame
+Frame 1589 end
+Frame 1590 start
+After clearing frame
+Frame 1590 end
+Frame 1591 start
+After clearing frame
+Frame 1591 end
+Frame 1592 start
+After clearing frame
+Frame 1592 end
+Frame 1593 start
+After clearing frame
+Frame 1593 end
+Frame 1594 start
+After clearing frame
+Frame 1594 end
+Frame 1595 start
+After clearing frame
+Frame 1595 end
+Frame 1596 start
+After clearing frame
+Frame 1596 end
+Frame 1597 start
+After clearing frame
+Frame 1597 end
+Frame 1598 start
+After clearing frame
+Frame 1598 end
+Frame 1599 start
+After clearing frame
+Frame 1599 end
+Frame 1600 start
+After clearing frame
+Frame 1600 end
+Frame 1601 start
+After clearing frame
+Frame 1601 end
+Frame 1602 start
+After clearing frame
+Frame 1602 end
+Frame 1603 start
+After clearing frame
+Frame 1603 end
+Frame 1604 start
+After clearing frame
+Frame 1604 end
+Frame 1605 start
+After clearing frame
+Frame 1605 end
+Frame 1606 start
+After clearing frame
+Frame 1606 end
+Frame 1607 start
+After clearing frame
+Frame 1607 end
+Frame 1608 start
+After clearing frame
+Frame 1608 end
+Frame 1609 start
+After clearing frame
+Frame 1609 end
+Frame 1610 start
+After clearing frame
+Frame 1610 end
+Frame 1611 start
+After clearing frame
+Frame 1611 end
+Frame 1612 start
+After clearing frame
+Frame 1612 end
+Frame 1613 start
+After clearing frame
+Frame 1613 end
+Frame 1614 start
+After clearing frame
+Frame 1614 end
+Frame 1615 start
+After clearing frame
+Frame 1615 end
+Frame 1616 start
+After clearing frame
+Frame 1616 end
+Frame 1617 start
+After clearing frame
+Frame 1617 end
+Frame 1618 start
+After clearing frame
+Frame 1618 end
+Frame 1619 start
+After clearing frame
+Frame 1619 end
+Frame 1620 start
+After clearing frame
+Frame 1620 end
+Frame 1621 start
+After clearing frame
+Window close requested
+Frame 1621 end
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Frame 2100 (periodic status)
+Frame 2400 (periodic status)
+Frame 2700 (periodic status)
+Frame 3000 (periodic status)
+Frame 3300 (periodic status)
+Frame 3600 (periodic status)
+Frame 3900 (periodic status)
+Frame 4200 (periodic status)
+Frame 4500 (periodic status)
+Frame 4800 (periodic status)
+Frame 5100 (periodic status)
+Frame 5400 (periodic status)
+Frame 5700 (periodic status)
+Frame 6000 (periodic status)
+Frame 6300 (periodic status)
+Frame 6600 (periodic status)
+Frame 6900 (periodic status)
+Frame 7200 (periodic status)
+Frame 7500 (periodic status)
+Frame 7800 (periodic status)
+Frame 8100 (periodic status)
+Frame 8400 (periodic status)
+Frame 8700 (periodic status)
+Frame 9000 (periodic status)
+Frame 9300 (periodic status)
+Frame 9600 (periodic status)
+Frame 9900 (periodic status)
+Frame 10200 (periodic status)
+Frame 10500 (periodic status)
+Frame 10800 (periodic status)
+Frame 11100 (periodic status)
+Frame 11400 (periodic status)
+Frame 11700 (periodic status)
+Frame 12000 (periodic status)
+Frame 12300 (periodic status)
+Frame 12600 (periodic status)
+Frame 12900 (periodic status)
+Frame 13200 (periodic status)
+Frame 13500 (periodic status)
+Frame 13800 (periodic status)
+Frame 14100 (periodic status)
+Frame 14400 (periodic status)
+Frame 14700 (periodic status)
+Frame 15000 (periodic status)
+Frame 15300 (periodic status)
+Frame 15600 (periodic status)
+Frame 15900 (periodic status)
+Frame 16200 (periodic status)
+Frame 16500 (periodic status)
+Frame 16800 (periodic status)
+Frame 17100 (periodic status)
+Frame 17400 (periodic status)
+Frame 17700 (periodic status)
+Frame 18000 (periodic status)
+Frame 18300 (periodic status)
+Frame 18600 (periodic status)
+Frame 18900 (periodic status)
+Frame 19200 (periodic status)
+Frame 19500 (periodic status)
+Frame 19800 (periodic status)
+Frame 20100 (periodic status)
+Frame 20400 (periodic status)
+Frame 20700 (periodic status)
+Frame 21000 (periodic status)
+Frame 21300 (periodic status)
+Frame 21600 (periodic status)
+Frame 21900 (periodic status)
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Frame 2100 (periodic status)
+Frame 2400 (periodic status)
+Frame 2700 (periodic status)
+Frame 3000 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Frame 2100 (periodic status)
+Frame 2400 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Frame 2100 (periodic status)
+Frame 2400 (periodic status)
+Frame 2700 (periodic status)
+Frame 3000 (periodic status)
+Frame 3300 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Frame 2100 (periodic status)
+Frame 2400 (periodic status)
+Frame 2700 (periodic status)
+Frame 3000 (periodic status)
+Frame 3300 (periodic status)
+Frame 3600 (periodic status)
+Frame 3900 (periodic status)
+Frame 4200 (periodic status)
+Frame 4500 (periodic status)
+Frame 4800 (periodic status)
+Frame 5100 (periodic status)
+Frame 5400 (periodic status)
+Frame 5700 (periodic status)
+Frame 6000 (periodic status)
+Frame 6300 (periodic status)
+Frame 6600 (periodic status)
+Frame 6900 (periodic status)
+Frame 7200 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Frame 2100 (periodic status)
+Frame 2400 (periodic status)
+Frame 2700 (periodic status)
+Frame 3000 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Frame 2100 (periodic status)
+Frame 2400 (periodic status)
+Frame 2700 (periodic status)
+Frame 3000 (periodic status)
+Frame 3300 (periodic status)
+Frame 3600 (periodic status)
+Frame 3900 (periodic status)
+Frame 4200 (periodic status)
+Frame 4500 (periodic status)
+Frame 4800 (periodic status)
+Frame 5100 (periodic status)
+Frame 5400 (periodic status)
+Frame 5700 (periodic status)
+Frame 6000 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Frame 2100 (periodic status)
+Frame 2400 (periodic status)
+Frame 2700 (periodic status)
+Frame 3000 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Frame 2100 (periodic status)
+Frame 2400 (periodic status)
+Frame 2700 (periodic status)
+Frame 3000 (periodic status)
+Frame 3300 (periodic status)
+Frame 3600 (periodic status)
+Frame 3900 (periodic status)
+Frame 4200 (periodic status)
+Frame 4500 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Frame 2100 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Frame 2100 (periodic status)
+Frame 2400 (periodic status)
+Frame 2700 (periodic status)
+Frame 3000 (periodic status)
+Frame 3300 (periodic status)
+Frame 3600 (periodic status)
+Frame 3900 (periodic status)
+Frame 4200 (periodic status)
+Frame 4500 (periodic status)
+Frame 4800 (periodic status)
+Frame 5100 (periodic status)
+Frame 5400 (periodic status)
+Frame 5700 (periodic status)
+Frame 6000 (periodic status)
+Frame 6300 (periodic status)
+Frame 6600 (periodic status)
+Frame 6900 (periodic status)
+Frame 7200 (periodic status)
+Frame 7500 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Frame 2100 (periodic status)
+Frame 2400 (periodic status)
+Frame 2700 (periodic status)
+Frame 3000 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Frame 2100 (periodic status)
+Frame 2400 (periodic status)
+Frame 2700 (periodic status)
+Frame 3000 (periodic status)
+Frame 3300 (periodic status)
+Frame 3600 (periodic status)
+Frame 3900 (periodic status)
+Frame 4200 (periodic status)
+Frame 4500 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Frame 2100 (periodic status)
+Frame 2400 (periodic status)
+Frame 2700 (periodic status)
+Frame 3000 (periodic status)
+Frame 3300 (periodic status)
+Frame 3600 (periodic status)
+Frame 3900 (periodic status)
+Frame 4200 (periodic status)
+Frame 4500 (periodic status)
+Frame 4800 (periodic status)
+Frame 5100 (periodic status)
+Frame 5400 (periodic status)
+Frame 5700 (periodic status)
+Frame 6000 (periodic status)
+Frame 6300 (periodic status)
+Frame 6600 (periodic status)
+Frame 6900 (periodic status)
+Frame 7200 (periodic status)
+Frame 7500 (periodic status)
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Frame 2100 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Frame 2100 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Frame 2100 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Frame 2100 (periodic status)
+Frame 2400 (periodic status)
+Frame 2700 (periodic status)
+Frame 3000 (periodic status)
+Frame 3300 (periodic status)
+Frame 3600 (periodic status)
+Frame 3900 (periodic status)
+Frame 4200 (periodic status)
+Frame 4500 (periodic status)
+Frame 4800 (periodic status)
+Frame 5100 (periodic status)
+Frame 5400 (periodic status)
+Frame 5700 (periodic status)
+Frame 6000 (periodic status)
+Frame 6300 (periodic status)
+Frame 6600 (periodic status)
+Frame 6900 (periodic status)
+Frame 7200 (periodic status)
+Frame 7500 (periodic status)
+Frame 7800 (periodic status)
+Frame 8100 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Frame 2100 (periodic status)
+Frame 2400 (periodic status)
+Frame 2700 (periodic status)
+Frame 3000 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Frame 2100 (periodic status)
+Frame 2400 (periodic status)
+Frame 2700 (periodic status)
+Frame 3000 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Frame 2100 (periodic status)
+Frame 2400 (periodic status)
+Frame 2700 (periodic status)
+Frame 3000 (periodic status)
+Frame 3300 (periodic status)
+Frame 3600 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Frame 2100 (periodic status)
+Frame 2400 (periodic status)
+Frame 2700 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Frame 2100 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Frame 2100 (periodic status)
+Frame 2400 (periodic status)
+Frame 2700 (periodic status)
+Frame 3000 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Frame 2100 (periodic status)
+Frame 2400 (periodic status)
+Frame 2700 (periodic status)
+Frame 3000 (periodic status)
+Frame 3300 (periodic status)
+Frame 3600 (periodic status)
+Frame 3900 (periodic status)
+Frame 4200 (periodic status)
+Frame 4500 (periodic status)
+Window close requested
+Application exiting. Press Enter to close...
+-- Log started --
+Application start
+glfwInit() succeeded
+GLAD initialized. OpenGL 3.3.0 NVIDIA 591.74
+Initializing subsystems...
+Quad shader loaded
+ImGui initialized
+Model drawing is ENABLED
+Entering main loop
+Frame 300 (periodic status)
+Frame 600 (periodic status)
+Frame 900 (periodic status)
+Frame 1200 (periodic status)
+Frame 1500 (periodic status)
+Frame 1800 (periodic status)
+Window close requested
 Application exiting. Press Enter to close...

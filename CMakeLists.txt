@@ -21,8 +21,8 @@ file(GLOB IMGUI_SRC
 # --------------------------------------------------
 # Create executable
 # --------------------------------------------------
-add_executable(SmartFlow ${SOURCES})
-target_sources(SmartFlow PRIVATE ${IMGUI_SRC})
+add_executable(SmartFlow ${SOURCES} "src/simulate/Simulation.h" "src/simulate/Simulation.cpp")
+target_sources(SmartFlow PRIVATE ${IMGUI_SRC} "src/simulate/Simulation.h")
 # Ensure Shader.cpp is compiled (explicitly add new render sources)
 target_sources(SmartFlow PRIVATE
     ${CMAKE_SOURCE_DIR}/src/render/Shader.cpp
